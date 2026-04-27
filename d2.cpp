@@ -69,6 +69,8 @@ public:
         return dfs(0,0);
     }
 };
+//时间复杂度: O(m * n)
+//空间复杂度: O(m * n)
 int main(){
     vector<vector<int>> grid = {
         {2,4,3},
